@@ -1,6 +1,16 @@
 {
   "owner": "Azure",
   "repo": "functions-action",
-  "version": "",
-  "url": "https://github.com/Azure/functions-action"
+  "version": "v1.5.7",
+  "commit_sha": "c5060b3b8bb1ebbcb531abd00c822ecbaa8ea656",
+  "url": "https://github.com/Azure/functions-action",
+  "policy_sha": "d636be7e43ef829af6e853da6b3c7566db9f72fe",
+  "test_policy_sha": "843adf9e4b8f85d0c08b27b9d0b09dd094b54702",
+  "test_agent_version": "2",
+  "harden_agent_version": "2",
+  "node_artifact": {
+    "gcs_uri": "gs://prod-actions-node-artifacts/node-artifacts/Azure/functions-action/v1.5.7/sha256-e31fd47ff02a9ed4133746b0dfe1c26f0070d7a796f17875f7a1755fd838d795.tar.gz",
+    "sha256": "e31fd47ff02a9ed4133746b0dfe1c26f0070d7a796f17875f7a1755fd838d795",
+    "size_bytes": 20277644
+  }
 }
