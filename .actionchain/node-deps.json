@@ -1,9 +1,10 @@
 {
-  "status": "bundled",
+  "status": "unbundlable",
   "entries": [
     {
       "path": "lib/main.js",
-      "status": "bundled"
+      "status": "unbundlable",
+      "reason": "bundle resolves a dynamic require through esbuild's __glob map, which has no extensionless keys"
     }
   ]
 }

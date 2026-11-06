@@ -1,4 +1,4 @@
-name: Test sku flexconsumption with unusable publish profile fails
+name: Test sku flexconsumption with unusable publish-profile fails
 on:
   workflow_dispatch:
 jobs:
@@ -32,7 +32,7 @@ jobs:
           echo "app-url: $APP_URL"
           echo "package-url: $PACKAGE_URL"
           if [ "$OUTCOME" != "failure" ]; then
-            echo "FAIL: expected failure for flexconsumption deploy with unusable publish profile"
+            echo "FAIL: expected failure for unusable publish profile with sku=flexconsumption"
             exit 1
           fi
           if [ -n "$PACKAGE_URL" ]; then
